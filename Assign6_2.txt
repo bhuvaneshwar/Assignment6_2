@@ -1,0 +1,121 @@
+1.Why MapReduce program is needed in Pig Programming?
+
+	- Highly used for optimising with several stage of processing.
+
+	- Map reduce is used when hadoop developers require driver program control.
+
+	- It is of high use during the testability is required for combining large volume of data.
+
+	-It is used when there is a need of cross products, joins and distributed cache by the job when there is a tricky usage.
+
+
+
+
+2.What are advantages of Pig over MapReduce?
+
+	   - It is a data flow language that makes it easier to process and and analyze big data by building it on the top of hadoop.
+
+           - In map reduce the development time is high and in pig the development time is decreased by proper maintanence of 
+	     the programs.
+
+           - For user who do not know how to write map reduce or SQL programs ,they can make use of pig program which are similar 
+	     to that of english language.
+
+           - Pig is a procedural and therefore user can easily control the execution of steps.
+
+           - Pig helps parallellization by acting as a base pipeline and utilize large volume of data.
+
+
+
+
+
+3.What is Pig engine and what is its importance?
+
+	- Huge set of data is represented in the form of dataflow.
+
+	- It acts as abstraction over map reduce.
+
+	- They execute hadoop jobs in mapreduce.
+
+	- It is high level platform used to create programs which  run on hadoop.
+
+
+
+
+4. What are the modes of Pig execution?
+
+	* Local Mode
+	* Mapreduce Mode
+
+	* Local Mode:
+	
+		- Firstly installation of files takes place.
+
+		- The installed files are made to run on local host and local file system
+
+		- Local mode helps for test purposes.
+
+	* Mapreduce Mode:
+
+		- The data in the hdsf are processsed in mapreduce mode.
+
+		- The data are processed using the pig latin statements.
+
+		- Particular operations on data are performed by mapreduce job at back end.
+
+
+
+
+5.What is Grunt Shell in Pig?
+
+	- Grunt shell runs the pig scripts which is invoked by pig command.
+
+	- this shell is used to write pig latinscripts.
+
+	- Many shell and utility command use grunt shell.
+
+	- Grunt supports documents which are use in batch processing and interactive mode.
+
+	- Grunt can also be used with dfs commands .
+
+
+
+
+6.What are the features of Pig Latin language?
+
+	- It provides greater extensibility allowing the user for developing their own function to read and write data.
+
+	- Pig latin handles both the structured and unstructured data.
+
+	- Pig is a multi query approach thus helps the user to reduce the length of codes.
+
+	- It provides rich set of operators
+
+	- Pig is a SQL like language and it makes it easy to write code.
+
+	- It provides optimization opportunity
+
+
+
+
+
+7.Is Pig Latin commands case sensitive?
+
+	- Yes,the pig latin commands are case sensitive.
+
+	- Everything like The name of pig latin function ,the names of parameters and pig latin keywords are case sensitive.
+
+	- Relation and field names are case sensitive.
+
+
+
+
+8.What is a data flow language?
+
+	- It is a programming concept that makes use of a directed graph.
+
+	- Directed graph is made up of programs and the graph represents the flow of data between operations.
+
+	- user is provided with stream of data that allows the user to move from instruction to instruction.
+	
+	- Conditional statement,jumps and procedural calls help user to move from instruction to instruction.
